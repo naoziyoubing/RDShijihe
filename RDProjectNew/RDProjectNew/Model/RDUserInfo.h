@@ -44,3 +44,5 @@
 @property (nonatomic, assign) NSInteger lastDate;
 +(id)parseWithJson:(NSDictionary *)dic;
 @end
+//现在做修改测试。话说你这代码看的不累吗？
+//
