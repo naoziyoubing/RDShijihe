@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  RDProjectNew
+//
+//  Created by realdata on 16/3/18.
+//  Copyright © 2016年 realdata. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define kCOLORWITHRGB(r, g, b) [UIColor colorWithRed:r / 255.0 green:g / 255.0 blue:b / 255.0 alpha:1]
+#define kEMAILADDRESS @"[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}"
+#define kPHONENUMBER @"^1[34578]\\d{9}$"
+
+#define kBasePath @"http://lab.caoyuanye.cn:8080/shijihe/";
+
+#endif /* PrefixHeader_pch */
